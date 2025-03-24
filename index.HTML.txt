@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor V Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #0057b8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #003f7f;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px 0;
+        }
+        h2 {
+            color: #0057b8;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #003f7f;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Madana Victor Vasanth</h1>
+        <p>Embedded & Machine Learning Engineer | M.Tech at NIT Warangal</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am an Embedded Systems & Machine Learning enthusiast pursuing my M.Tech at NIT Warangal. Passionate about FPGA, RTOS, and AI-driven embedded applications.</p>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>NIT Warangal</strong> - M.Tech in Embedded & ML Systems (2024–2026) | CGPA: 7.4</p>
+            <p><strong>TKR College of Engineering and Technology</strong> - B.Tech in ECE (2019–2023) | CGPA: 7.39</p>
+            <p><strong>Sri Chaitanya Junior College</strong> - Grade XII (MPC) | CGPA: 6.6</p>
+            <p><strong>G. Narayanamma High School</strong> - Grade X | CGPA: 7.7</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <p><strong>Research Intern</strong> - NIT Calicut (2021)</p>
+            <ul>
+                <li>Developed a machine learning model for heart disease classification.</li>
+                <li>Gained expertise in healthcare-based AI applications.</li>
+                <li>Worked under Dr. Waqar Ahmad, Dept. of ECE, NITC.</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>FPGA-Accelerated Crop Disease Detection</strong> - Real-time image processing on Zynq FPGA for precision agriculture.</li>
+                <li><strong>Embedded AI for Dyslexia Detection</strong> - Machine learning & handwriting analysis on Raspberry Pi.</li>
+                <li><strong>Embedded UART Communication</strong> - Real-time distance sensing with Tiva C & STM32.</li>
+                <li><strong>IoT-Based Power Management System</strong> - Remote energy management using microgrid technology.</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li><strong>Programming:</strong> C, Python</li>
+                <li><strong>Developer Tools & IDEs:</strong> STM32Cube IDE, Keil, Vivado, MATLAB, CUDA</li>
+                <li><strong>Embedded Development:</strong> JTAG Debugging, GDB, FreeRTOS</li>
+                <li><strong>Communication Protocols:</strong> UART, I2C, SPI, Bluetooth, Wi-Fi</li>
+                <li><strong>Embedded & Hardware Platforms:</strong> Arduino, STM32, Raspberry Pi, 8051, Jetson Nano</li>
+                <li><strong>Specialized Courses:</strong> Embedded RTOS, FPGA Systems, Hardware Programming</li>
+            </ul>
+        </section>
+
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li><strong>Published Research Paper:</strong> "Power Management of Renewable Energy Using Micro Grid via IoT" (UGC CARE JICR Journal, March 2023).</li>
+                <li>Demonstrated IoT-enabled microgrids for efficient energy management.</li>
+            </ul>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul>
+                <li><strong>NPTEL & IIT Certifications:</strong></li>
+                <ul>
+                    <li>"CMOS Digital VLSI Design" - IIT Roorkee</li>
+                    <li>"Introduction to Internet of Things" - IIT Kharagpur</li>
+                </ul>
+                <li><strong>Workshops:</strong></li>
+                <ul>
+                    <li>"Python for Scientific Computing" - NIT Warangal</li>
+                    <li>"Embedded C and ARM Cortex Microcontrollers" - NIELIT Calicut, ARM & NPTEL</li>
+                </ul>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p><strong>Email:</strong> victorvasanthh@gmail.com</p>
+            <p><strong>GitHub:</strong> <a href="https://github.com/victorvasanth" target="_blank">GitHub Profile</a></p>
+            <p><strong>LinkedIn:</strong> <a href="http://www.linkedin.com/in/madanavictorvasanth" target="_blank">LinkedIn Profile</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Madana Victor Vasanth</p>
+    </footer>
+</body>
+</html>
